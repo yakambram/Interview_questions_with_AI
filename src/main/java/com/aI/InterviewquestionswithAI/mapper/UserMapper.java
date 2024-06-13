@@ -1,7 +1,7 @@
-package com.aI.Interview_questions_with_AI.mapper;
+package com.aI.InterviewquestionswithAI.mapper;
 
-import com.aI.Interview_questions_with_AI.dto.UserDTO;
-import com.aI.Interview_questions_with_AI.entity.User;
+import com.aI.InterviewquestionswithAI.dto.UserDTO;
+import com.aI.InterviewquestionswithAI.entity.User;
 import org.modelmapper.ModelMapper;
 
 public class UserMapper {

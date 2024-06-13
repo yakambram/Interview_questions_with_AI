@@ -1,6 +1,6 @@
-package com.aI.Interview_questions_with_AI.service;
+package com.aI.InterviewquestionswithAI.service;
 
-import com.aI.Interview_questions_with_AI.dto.UserDTO;
+import com.aI.InterviewquestionswithAI.dto.UserDTO;
 
 import java.util.List;
 

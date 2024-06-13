@@ -1,4 +1,4 @@
-package com.aI.Interview_questions_with_AI.exception;
+package com.aI.InterviewquestionswithAI.exception;
 
 public class ApplicationException extends RuntimeException{
     public ApplicationException(String message) {

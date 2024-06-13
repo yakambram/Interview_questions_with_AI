@@ -1,10 +1,11 @@
-package com.aI.Interview_questions_with_AI.service;
+package com.aI.InterviewquestionswithAI.service.serviceImpl;
 
-import com.aI.Interview_questions_with_AI.dto.UserDTO;
-import com.aI.Interview_questions_with_AI.entity.User;
-import com.aI.Interview_questions_with_AI.exception.ApplicationBusinessException;
-import com.aI.Interview_questions_with_AI.mapper.UserMapper;
-import com.aI.Interview_questions_with_AI.repository.UserRepository;
+import com.aI.InterviewquestionswithAI.dto.UserDTO;
+import com.aI.InterviewquestionswithAI.entity.User;
+import com.aI.InterviewquestionswithAI.exception.ApplicationBusinessException;
+import com.aI.InterviewquestionswithAI.mapper.UserMapper;
+import com.aI.InterviewquestionswithAI.repository.UserRepository;
+import com.aI.InterviewquestionswithAI.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +14,7 @@ import java.util.stream.Collectors;
 
 @Service
 
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
     @Autowired
     private UserRepository userRepository;
     @Override

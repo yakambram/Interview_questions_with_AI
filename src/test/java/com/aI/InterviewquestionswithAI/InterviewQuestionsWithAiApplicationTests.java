@@ -1,4 +1,4 @@
-package com.aI.Interview_questions_with_AI;
+package com.aI.InterviewquestionswithAI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
