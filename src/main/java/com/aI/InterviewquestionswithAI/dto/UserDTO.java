@@ -1,4 +1,4 @@
-package com.aI.Interview_questions_with_AI.dto;
+package com.aI.InterviewquestionswithAI.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

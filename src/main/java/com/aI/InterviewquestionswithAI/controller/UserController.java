@@ -1,9 +1,9 @@
-package com.aI.Interview_questions_with_AI.controller;
+package com.aI.InterviewquestionswithAI.controller;
 
-import com.aI.Interview_questions_with_AI.dto.UserDTO;
-import com.aI.Interview_questions_with_AI.entity.ApiResponse;
-import com.aI.Interview_questions_with_AI.exception.ApplicationBusinessException;
-import com.aI.Interview_questions_with_AI.service.UserService;
+import com.aI.InterviewquestionswithAI.dto.UserDTO;
+import com.aI.InterviewquestionswithAI.entity.ApiResponse;
+import com.aI.InterviewquestionswithAI.exception.ApplicationBusinessException;
+import com.aI.InterviewquestionswithAI.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

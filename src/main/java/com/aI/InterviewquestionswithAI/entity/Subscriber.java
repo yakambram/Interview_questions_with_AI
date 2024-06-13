@@ -1,4 +1,4 @@
-package com.aI.Interview_questions_with_AI.entity;
+package com.aI.InterviewquestionswithAI.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -8,17 +8,16 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDateTime;
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class Subscriber {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long userId;
-    private String name;
-    private String emailId;
-    private String phoneNumber;
-    private String password;
-
+    private Long subscriberId;
+    private String subscriberName;
+    private LocalDateTime subscriptionStartDate;
+    private LocalDateTime getSubscriptionEndDate;
 }

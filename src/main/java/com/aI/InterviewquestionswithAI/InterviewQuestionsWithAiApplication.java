@@ -1,4 +1,4 @@
-package com.aI.Interview_questions_with_AI;
+package com.aI.InterviewquestionswithAI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

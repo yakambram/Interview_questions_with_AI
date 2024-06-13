@@ -1,4 +1,4 @@
-package com.aI.Interview_questions_with_AI.entity;
+package com.aI.InterviewquestionswithAI.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

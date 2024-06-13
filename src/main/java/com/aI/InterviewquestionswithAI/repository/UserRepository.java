@@ -1,6 +1,6 @@
-package com.aI.Interview_questions_with_AI.repository;
+package com.aI.InterviewquestionswithAI.repository;
 
-import com.aI.Interview_questions_with_AI.entity.User;
+import com.aI.InterviewquestionswithAI.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
