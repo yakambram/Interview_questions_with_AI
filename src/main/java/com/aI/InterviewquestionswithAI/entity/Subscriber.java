@@ -19,5 +19,5 @@ public class Subscriber {
     private Long subscriberId;
     private String subscriberName;
     private LocalDateTime subscriptionStartDate;
-    private LocalDateTime getSubscriptionEndDate;
+    private LocalDateTime SubscriptionEndDate;
 }

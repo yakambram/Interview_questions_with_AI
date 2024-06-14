@@ -39,7 +39,7 @@ public class UserServiceImpl implements UserService {
         List<UserDTO> users= findAll.stream()
                 .map(e ->UserMapper.convertToDTO(e))
                 .collect(Collectors.toList());
-        return users;
+        return  users;
 
     }
 
