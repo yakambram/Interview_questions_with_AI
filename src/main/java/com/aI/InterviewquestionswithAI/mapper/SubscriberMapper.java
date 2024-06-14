@@ -11,7 +11,7 @@ public class SubscriberMapper {
         return modelMapper.map(subscriber,SubscriberDTO.class);
 
     }
-    public static Subscriber convertToDTO(SubscriberDTO subscriberDTO){
+    public static Subscriber convertToEntity(SubscriberDTO subscriberDTO){
         return modelMapper.map(subscriberDTO,Subscriber.class);
 
     }
